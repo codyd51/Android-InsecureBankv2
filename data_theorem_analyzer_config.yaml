@@ -1,3 +1,4 @@
 build_commands:
  - echo “Building codebase...”
- - ./InsecureBankv2/gradlew assembleDebug --stacktrace
+ - cd InsecureBankv2
+ - ./gradlew assembleDebug --stacktrace
